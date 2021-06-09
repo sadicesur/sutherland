@@ -1,23 +1,12 @@
-import setuptools
-
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
-
-setuptools.setup(
-     name='suter',  
-     version='0.1',
-     scripts=['suther'] ,
-     author="Sadi Cesur",
-     author_email="cesursadi@gmail.com",
-     description="Sutherland's Viscosity Model",
-     long_description=long_description,
-   long_description_content_type="text/markdown",
-     url="https://github.com/sadicesur/sutherland",
-     packages=setuptools.find_packages(),
-     classifiers=[
-         "Programming Language :: Python :: 3",
-         "License :: OSI Approved :: MIT License",
-         "Operating System :: OS Independent",
-     ],
- )
+setup(
+    name = 'sutherland',
+    packages = ['suther'],
+    version = '0.1',  # Ideally should be same as your GitHub release tag varsion
+    description = 'W.Sutherlands Viscosity Model',
+    author = 'Sadi Cesur',
+    author_email = 'cesursadi@gmail.com',
+    url = 'https://github.com/sadicesur/sutherland',
+    download_url = 'https://github.com/sadicesur/sutherland/releases/tag/sutherland',
+    keywords = ['Aerodynamics', 'Sutherland', 'Viscosity'],
+    classifiers = [],
+)
