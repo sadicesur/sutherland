@@ -1,4 +1,5 @@
 # [SUTHERLAND'S VISCOSITY MODEL](https://www.tandfonline.com/doi/abs/10.1080/14786449308620508)
+* PyPI : https://pypi.org/project/sutherland/
 
 * William Sutherland's viscosity model calculated from reference temperature. 
 
